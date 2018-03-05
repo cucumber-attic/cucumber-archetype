@@ -4,7 +4,7 @@
 
     <groupId>io.cucumber</groupId>
     <artifactId>cucumber-archetype</artifactId>
-    <version>2.3.1-SNAPSHOT</version>
+    <version>2.3.1</version>
     <packaging>maven-archetype</packaging>
     <name>cucumber-archetype</name>
     <description>Cucumber Expressions</description>
@@ -38,7 +38,7 @@
         <connection>scm:git:git://github.com/cucumber/cucumber-archetype.git</connection>
         <developerConnection>scm:git:git@github.com:cucumber/cucumber-archetype.git</developerConnection>
         <url>git://github.com/cucumber/cucumber-archetype.git</url>
-        <tag>HEAD</tag>
+        <tag>v2.3.1</tag>
     </scm>
 
     <!--
