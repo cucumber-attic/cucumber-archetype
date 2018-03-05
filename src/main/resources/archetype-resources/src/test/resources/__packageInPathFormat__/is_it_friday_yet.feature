@@ -1,5 +1,5 @@
 Feature: Is it Friday Yet
-  We want to know when It's Friday
+  Everybody wants to know when it's Friday
   
   Scenario: Sunday is not Friday
     Given today is Sunday
