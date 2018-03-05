@@ -8,7 +8,7 @@ Set up a Cucumber Java project easily
 mvn archetype:generate                                  \
   -DarchetypeGroupId=io.cucumber                        \
   -DarchetypeArtifactId=cucumber-archetype              \
-  -DarchetypeVersion=1.0.0                              \
+  -DarchetypeVersion=2.3.1                              \
 ```
 
 `cd` into the generated directory and run:
