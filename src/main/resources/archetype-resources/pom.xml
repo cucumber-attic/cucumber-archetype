@@ -13,14 +13,14 @@
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-java</artifactId>
-            <version>2.3.1</version>
+            <version>4.0.0</version>
             <scope>test</scope>
         </dependency>
 
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-junit</artifactId>
-            <version>2.3.1</version>
+            <version>4.0.0</version>
             <scope>test</scope>
         </dependency>
 
