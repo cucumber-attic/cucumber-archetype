@@ -1,4 +1,4 @@
-package ${package};
+package com.example;
 
 import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;

@@ -1,4 +1,4 @@
-package ${package};
+package com.example;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
