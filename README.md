@@ -12,5 +12,5 @@ This is a Maven Archetype for setting up an empty Cucumber project. Used by the 
 mvn archetype:generate                                  \
   -DarchetypeGroupId=io.cucumber                        \
   -DarchetypeArtifactId=cucumber-archetype              \
-  -DarchetypeVersion=4.2.6.0                            \
+  -DarchetypeVersion=4.2.6.1                            \
 ```
