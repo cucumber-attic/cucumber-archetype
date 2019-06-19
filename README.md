@@ -1,7 +1,7 @@
 [![OpenCollective](https://opencollective.com/cucumber/backers/badge.svg)](https://opencollective.com/cucumber) 
 [![OpenCollective](https://opencollective.com/cucumber/sponsors/badge.svg)](https://opencollective.com/cucumber)
 
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.cucumber/cucumber-archetype/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.cucumber/cucumber-archetype)
+[![Maven Central](https://img.shields.io/maven-central/v/io.cucumber/cucumber-archetype.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22io.cucumber%22%20AND%20a:%22cucumber-archetype%22)
 [![Build Status](https://travis-ci.org/cucumber/cucumber-archetype.svg?branch=master)](https://travis-ci.org/cucumber/cucumber-archetype)
 
 # Cucumber Archetype
