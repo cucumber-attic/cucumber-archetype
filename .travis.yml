@@ -3,17 +3,4 @@ language: java
 jdk:
 - oraclejdk8
 - openjdk11
-jobs:
-  include:
-  - stage: deploy
-    jdk: oraclejdk8
-    script:
-    - "./scripts/mvn_deploy.sh"
 script: mvn clean install
-env:
-  global:
-  - secure: YHSEP7rA6Y/Us/9EeSFMHDxK6w5GRr+wUYLJoMOXVKqROiUAI9frjBWqXZ3RBqxjhb1AQk6/KeQXwQv9fvG9cI23ztQPgI4/Z1P8jpZ0O7EZVBf/g4H0z10W1TA24Ym9/WUEL5ElhbfP2zrBp4Ig2U41Aj6mSoU9DzGMk6QwBUZuheE82CPOG4dgbjS0P6UsFBQWDzL7z+0/QHoX849J2dbry9F4OhNSkbb7OGZPPn4jWGp7xPH9SlmGBOa81O7NavOaBPg0OkvNMtpv/B5psTNByaZdA34XNNzeoJm0gTiS5QT+1yMq0ZJFGSF/21c7vJbgkCYVFUrQjE1QknzGV/W176h1sHdqktQ/n/KWnMw+XFIQgL2i9YWxhijBCfuMYczOp+c8MRxUbrjR8rmpJN3JMm2+KxHhUiiVxaHM/ZZ+66+smWDIm6FdVk2eNCF/nPm3twSx3sYzl+FR1/yBMiVQGeodjoWDGRpme9LqCRZwBrIf9ENwtY0JiIndqZnPH57D2WHytIqg3rmiOG0VqvH9/2Vpr3+uM3zdKYYqeX5jwgBOnCvpEkDumnDzK84Od6ik1BZePKH7loCa6wZEabZOHtQ0/ezA4jJtgeAjZamXO16m9LJvw3MbFPPuAq/uRK7DVoNLnWCznuNw3Mz7rvpzIedGu0R21Wtsyr2KC64=
-  - secure: GQwJ6DTwmLeP2iJ0c2plMhr2cZ5wgejpdfg6iJec03NRJd94ZXzjZOFF2CH01dP6uSF57fB274o6nKLgJ0cDXoZYm05FQXzlqdSvYH1omqCZDTsmE2N/vEozBOe7TZT4VM92bvdLmDo1eN0CJvOO1X+WUs4BtbSBFNZQ4/1DHU7DXhxyg0+c6wQq+lfoChg2mQa90mzuEna9vdMRCpalmgQtj4LEarFYoXjb9oR0FlrwveiE8KHl+4AaxWkYU47H2LurNvAWT5o2tYE73gApG3Zc8SzkysCpKxqlT5jwAEG9KhiENuk0xX8a589W9jJ+h7+xzWs9Rcdl0LgcViWkjRMf9hyNhaiJY0caXLzFAWRWA4XjkNbQjfMwFsitb1+ZHUZ9DpNg55pZs7tSE12aRW+jboqvwVB/Ow2I79rBN/XoWYo5rnLLD5qSRo0AnW/BE2gN/P/0AicNBSEQJJp0/NGjbgZpRBic3gr4VvP5licP4/n/SPLzXRve3Vy4eOW7MpKiKMK56M9F/pOdIipRTraua+uiOHGywSRg28XryYWy8OYLXKTJyGgol7dAyK3wUWEDDeZghyGg221olQDyIk2U2ndEuY9iSQAAThTR6eTJqMY9L+Arjl89vURvLNAkqgGQjqRz/9Wr4THw5ONrleCo2ms5aoaUY1OUGDCYVFk=
-before_install:
-- openssl aes-256-cbc -K $encrypted_e8985497b674_key -iv $encrypted_e8985497b674_iv
-  -in scripts/codesigning.asc.enc -out scripts/codesigning.asc -d

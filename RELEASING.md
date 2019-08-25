@@ -27,6 +27,4 @@ Now release everything:
 mvn release:clean release:prepare  
 ```
 
-Travis will now deploy everything.
-
-All done! Hurray!
+Ping a maintainer to deploy the release.
