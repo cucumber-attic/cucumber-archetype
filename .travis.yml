@@ -1,5 +1,9 @@
 sudo: false
 language: java
+cache:
+  directories:
+    - "$HOME/.m2"
+
 jdk:
 - openjdk8
 - openjdk11
