@@ -6,6 +6,6 @@ import io.cucumber.java.en.When;
 
 import static org.junit.Assert.*;
 
-public class Steps {
+public class StepDefinitions {
 
 }
