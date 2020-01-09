@@ -27,4 +27,9 @@ Now release everything:
 mvn release:clean release:prepare  
 ```
 
-Ping a maintainer to deploy the release.
+Ping a maintainer to deploy the release by running these commands:
+
+```
+git checkout vX.Y.Z
+mvn clean deploy -Psign-source-javadoc
+```
