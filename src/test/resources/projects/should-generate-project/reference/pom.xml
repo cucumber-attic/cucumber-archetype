@@ -10,7 +10,7 @@
     <packaging>jar</packaging>
 
     <properties>
-        <cucumber.version>4.8.0</cucumber.version>
+        <cucumber.version>4.8.1</cucumber.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
